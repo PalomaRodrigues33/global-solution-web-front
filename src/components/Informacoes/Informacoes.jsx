@@ -8,7 +8,7 @@ export default function Informacoes() {
                     <p></p>
                 </div>
                 <div>
-                    <h3>O que é ela fará</h3>
+                    <h3>O que ela fará</h3>
                     <p></p>
                 </div>
                 <div>

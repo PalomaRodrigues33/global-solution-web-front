@@ -21,7 +21,7 @@ export default function Cabecalho() {
                     <button onClick={handleLogout} className={sessionStorage.getItem("token-user") ? "btnLogout" : "btn"}>Logout</button>
                 </div>
                 <div className="welcome">
-                    <p>{obJUser != null ? `Olá ${obJUser.name}` : ""}</p>
+                    <p>{obJUser != null ? `Olá ${obJUser.nome}` : ""}</p>
                     <p>{obJUser != null ? obJUser.email : ""}</p>
                 </div>
             </header>
