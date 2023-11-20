@@ -1,0 +1,28 @@
+.cabecalho {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btnLogout {
+        background-color: #ff4500; // Adjust the color as needed
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #d84315; // Adjust the hover color as needed
+        }
+    }
+
+    .welcome {
+        text-align: right;
+
+        p {
+            margin: 0;
+        }
+    }
+}
