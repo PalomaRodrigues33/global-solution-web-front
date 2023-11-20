@@ -2,17 +2,18 @@ import Informacoes from "../components/Informacoes/Informacoes"
 import Introducao from "../components/Introducao/Introducao"
 import Vantagens from "../components/Vantagens/Vantagens"
 
-function Home() {
+export default function Home() {
 
-    return (
-        <>
+    if (sessionStorage.getItem("token-user")) {
+        return (
             <div>
-                <Introducao/>
-                <Informacoes/>
-                <Vantagens/>
+                <Introducao />
+                <Informacoes />
+                <Vantagens />
             </div>
-        </>
-    )
-}
+        )
+    } else {
+        window.location = "/login";
 
-export default Home
+    }
+}
