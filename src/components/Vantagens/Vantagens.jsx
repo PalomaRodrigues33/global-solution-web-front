@@ -4,6 +4,7 @@ export default function Vantagens() {
         <>
             <div className="vantagens">
                 <section id="vantagens">
+                    <h3>Vantagens</h3>
                     <div>
                         <h3>1</h3>
                         <p></p>

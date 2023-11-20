@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 20px; // Adjust the gap as needed
-    grid-auto-flow: dense; // This property allows items to be placed in "holes" left by larger items
+    gap: 20px;
+    grid-auto-flow: dense;
+    margin: 2em 10em;
 }
 
 section {

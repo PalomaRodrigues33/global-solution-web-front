@@ -1,3 +1,5 @@
+import './Introducao.scss'
+
 export default function Introducao() {
 
     return (

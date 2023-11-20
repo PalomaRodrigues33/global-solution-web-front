@@ -1,0 +1,23 @@
+.introducao {
+    #introducao {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 10px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h3 {
+            grid-row: 2;
+            margin: 10px;
+        }
+
+        p {
+            grid-row: 2;
+        }
+    }
+}

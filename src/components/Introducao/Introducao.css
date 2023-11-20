@@ -1,0 +1,18 @@
+.introducao #introducao {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+.introducao #introducao img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.introducao #introducao h3 {
+  grid-row: 2;
+  margin: 10px;
+}
+.introducao #introducao p {
+  grid-row: 2;
+}/*# sourceMappingURL=Introducao.css.map */
