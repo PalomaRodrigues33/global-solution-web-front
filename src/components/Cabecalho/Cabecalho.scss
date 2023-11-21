@@ -1,20 +1,21 @@
 .cabecalho {
-    background-color: #333;
+    background: linear-gradient(to right, #4e91c8, #5960e0);
     color: white;
-    padding: 1.3em;
+    padding: 1.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .btnLogout {
-        background-color: #ff4500; // Adjust the color as needed
+        background-color: transparent;
+        font-size: 1.5em;
+        margin-right: 2em;
         color: white;
-        padding: 5px 10px;
         border: none;
         cursor: pointer;
 
         &:hover {
-            background-color: #d84315; // Adjust the hover color as needed
+            color: #a71a1a;
         }
     }
 
@@ -23,6 +24,7 @@
 
         p {
             margin: 0;
+            font-weight: bold;
         }
     }
 }

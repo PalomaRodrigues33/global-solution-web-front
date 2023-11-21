@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { VscSignOut as Sair} from "react-icons/vsc";
+
 import './Cabecalho.scss';
 
 export default function Cabecalho() {
@@ -25,7 +27,7 @@ export default function Cabecalho() {
                         </div>
                         <div>
                             <button onClick={handleLogout} className="btnLogout">
-                                Logout
+                                <Sair/>
                             </button>
                         </div>
                     </>
