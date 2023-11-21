@@ -1,5 +1,8 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom";
+import { IoMdMail as Email} from "react-icons/io";
+import { IoIosLock as Senha} from "react-icons/io";
+
 import './Login.scss'
 
 export default function Login() {
@@ -52,28 +55,23 @@ export default function Login() {
     }
 
     return (
-        <div className="container">
-            <h1>Login</h1>
-
-            <div className="form-login">
+        <div className="login-container">
+            <div className="wrapper">
                 <form onSubmit={handleSubmit}>
-                    <fieldset>
-                        <legend>User Information:</legend>
-                        <div>
-                            <label htmlFor="idEmail">Email:</label>
-                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email." value={usuario.email} onChange={handleChange} />
+                    <h1>Login</h1>
+                        <div className="input-box">
+                            <input type="email" name="email" id="idEmail" placeholder="Email" value={usuario.email} onChange={handleChange} />
+                            <Email className="icon"/>
+                        </div>
+                        <div className="input-box">
+                            <input type="password" name="senha" id="idSenha" placeholder="Senha" value={usuario.senha} onChange={handleChange} />
+                            <Senha className="icon"/>
                         </div>
                         <div>
-                            <label htmlFor="idSenha">Senha:</label>
-                            <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha." value={usuario.senha} onChange={handleChange} />
+                            <button className="btn">LOGIN</button>
                         </div>
-                        <div>
-                            <button>LOGIN</button>
-                        </div>
-                    </fieldset>
                 </form>
             </div>
-
         </div>
     )
 }

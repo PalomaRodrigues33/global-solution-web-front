@@ -1,5 +1,5 @@
 .cabecalho {
-  background: linear-gradient(to right, #4e91c8, #5960e0);
+  background: linear-gradient(to right, rgba(78, 145, 200, 0.2549019608), rgba(89, 96, 224, 0.3764705882));
   color: white;
   padding: 1.5em;
   display: flex;

@@ -7,10 +7,12 @@ export default function Home() {
 
     if (sessionStorage.getItem("token-user")) {
         return (
-            <div className="home-container">
-                <Introducao />
-                <Informacoes />
-                <Vantagens />
+            <div className="container">
+                <div className="home-container">
+                    <Introducao />
+                    <Informacoes />
+                    <Vantagens />
+                </div>
             </div>
         )
     } else {
