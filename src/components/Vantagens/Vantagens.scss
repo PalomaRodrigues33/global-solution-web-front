@@ -1,0 +1,25 @@
+// Vantagens.scss
+
+.vantagens {
+    #vantagens {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around; // Adjust this property based on your alignment preference
+        align-items: center; // Optional: Center items vertically
+
+        div {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc; // Optional: Add a border for visual separation
+
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 5px; // Optional: Add margin for spacing below the number
+            }
+
+            p {
+                // Add styles for the content inside each div
+            }
+        }
+    }
+}

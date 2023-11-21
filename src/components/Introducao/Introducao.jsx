@@ -7,8 +7,8 @@ export default function Introducao() {
             <div className="introducao">
                 <section id="introducao">
                     <img src="" alt="" />
-                    <h3>Título da Solução</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde illo inventore facere alias nemo ipsam ullam ea ratione dignissimos maxime!</p>
+                    <h1>Título da Solução</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, cupiditate illum! Quia cum alias quas, officiis quos officia neque quae corporis aspernatur? Qui ex ducimus harum, blanditiis veniam illo dolorum.</p>
                 </section>
             </div>
         </>

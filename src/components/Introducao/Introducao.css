@@ -9,8 +9,9 @@
   height: auto;
   border-radius: 8px;
 }
-.introducao #introducao h3 {
+.introducao #introducao h1 {
   grid-row: 2;
+  font-size: 2em;
   margin: 10px;
 }
 .introducao #introducao p {

@@ -1,0 +1,15 @@
+.vantagens #vantagens {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.vantagens #vantagens div {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.vantagens #vantagens div h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=Vantagens.css.map */

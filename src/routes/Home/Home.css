@@ -7,10 +7,6 @@
   margin: 2em 10em;
 }
 
-section {
-  background-color: pink;
-}
-
 .introducao {
   grid-column: span 3;
   grid-row: span 4;

@@ -1,0 +1,16 @@
+.informacoes #informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.informacoes #informacoes div {
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.informacoes #informacoes div h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.informacoes #informacoes div p {
+  line-height: 1.5;
+}/*# sourceMappingURL=Informacoes.css.map */
