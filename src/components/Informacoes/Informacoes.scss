@@ -1,4 +1,3 @@
-
 .informacoes {
     #informacoes {
         display: flex;
@@ -8,7 +7,7 @@
         div {
             padding: 15px;
             border: 1px solid #ccc;
-            
+
             h3 {
                 font-size: 1.2rem;
                 margin-bottom: 10px;
@@ -16,6 +15,36 @@
 
             p {
                 line-height: 1.5;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        #informacoes {
+            div {
+                padding: 10px;
+                h3 {
+                    font-size: 1rem;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        #informacoes {
+            div {
+                padding: 8px;
+                h3 {
+                    font-size: 0.9rem;
+                    margin-bottom: 4px;
+                }
+                p {
+                    font-size: 0.8rem;
+                }
             }
         }
     }

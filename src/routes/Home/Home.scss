@@ -1,17 +1,23 @@
-.container{
+/* Estilos base */
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 95vh;
+    height: auto;
+    min-width: 100%;
     background: #fff;
+    padding: 2em;
 }
+
 .home-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
     grid-auto-flow: dense;
-    margin: 2em 10em;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2em;
 }
 
 .introducao {
@@ -27,4 +33,42 @@
 .vantagens {
     grid-column: span 5;
     grid-row: span 2;
+}
+
+/* Consulta de mídia para telas menores, como smartphones em modo retrato */
+@media screen and (max-width: 480px) {
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        margin: 1em;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .introducao,
+    .informacoes,
+    .vantagens {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .introducao,
+    .informacoes {
+        font-size: 0.8rem;
+    }
+}
+
+/* Consulta de mídia para telas de tamanho médio, como tablets em modo retrato */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Faça ajustes conforme necessário */
+}
+
+/* Consulta de mídia para telas médias a grandes, como tablets em modo paisagem e desktops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Faça ajustes conforme necessário */
+}
+
+/* Consulta de mídia para telas maiores, como desktops grandes e telas 4K */
+@media screen and (min-width: 1025px) {
+    /* Faça ajustes conforme necessário */
 }

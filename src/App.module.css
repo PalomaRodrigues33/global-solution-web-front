@@ -6,9 +6,12 @@
 }
 
 body {
-    background:url('../public/planodefundoGS2.png');
+    background: url('../public/planodefundoGS2.png');
     background-size: cover;
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* Adicione consultas de mídia conforme necessário para outros tamanhos de tela */

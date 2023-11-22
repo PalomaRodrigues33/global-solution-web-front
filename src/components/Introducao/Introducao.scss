@@ -1,15 +1,20 @@
 .introducao {
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    #watch {
+        margin-top: 20px;
+    }
+
     #introducao {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         gap: 10px;
-
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
 
         h1 {
             grid-row: 2;
@@ -19,6 +24,26 @@
 
         p {
             grid-row: 2;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        img {
+            margin-bottom: 15px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        img {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+        }
+
+        p {
+            font-size: 0.9rem;
         }
     }
 }
