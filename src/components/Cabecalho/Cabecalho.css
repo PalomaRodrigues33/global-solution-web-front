@@ -1,10 +1,11 @@
 .cabecalho {
-  background: linear-gradient(to right, rgba(78, 145, 200, 0.2549019608), rgba(89, 96, 224, 0.3764705882));
   color: white;
   padding: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .cabecalho .btnLogout {
   background-color: transparent;

@@ -1,1 +1,1 @@
-{"version":3,"sources":["Rodape.scss","Rodape.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,iBAAA;EACA,SAAA;EACA,qBAAA;ACCJ;;ADEA;EACI,kBAAA;EACA,SAAA;EACA,WAAA;EACA,yCAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;ACCJ","file":"Rodape.css"}
+{"version":3,"sources":["Rodape.scss","Rodape.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,iBAAA;EACA,SAAA;EACA,qBAAA;ACCJ;;ADEA;EACI,kBAAA;EACA,SAAA;EACA,WAAA;EACA,uCAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;EACA,8CAAA;EACA,uCAAA;ACCJ","file":"Rodape.css"}

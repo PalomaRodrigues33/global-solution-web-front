@@ -70,6 +70,9 @@ export default function Login() {
                         <div>
                             <button className="btn">LOGIN</button>
                         </div>
+                        <div className="cadastro">
+                            <p>Se você ainda não é registrado. <Link to="/cadastrar">CLIQUE AQUI</Link></p>
+                        </div>
                 </form>
             </div>
         </div>
