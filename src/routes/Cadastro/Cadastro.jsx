@@ -6,7 +6,7 @@ export default function Cadastro() {
 
     const navigate = useNavigate();
 
-    const [msgStatus, setMsgStatus] = useState("");
+    const [msgStatus] = useState("");
     
     const [usuario,setUsuario] = useState({
         nome:"",
