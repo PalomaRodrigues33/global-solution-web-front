@@ -18,12 +18,19 @@
 
         h1 {
             grid-row: 2;
-            font-size: 2em;
+            font-size: 3em;
+            font-weight: bold;
             margin: 10px;
+            text-align: center;
+            color: rgb(17, 88, 100);
         }
 
         p {
             grid-row: 2;
+            font-size: 1.3em;
+            text-align: center;
+            font-weight: bold;
+
         }
     }
 

@@ -6,11 +6,16 @@
 
         div {
             padding: 15px;
-            border: 1px solid #ccc;
+            margin-bottom: 3em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            border: 2px solid rgba(255, 255, 255, .2);
+            border-radius: 10px;
 
             h3 {
-                font-size: 1.2rem;
+                font-size: 1.6rem;
                 margin-bottom: 10px;
+                text-align: center;
+                color: rgb(17, 88, 100);
             }
 
             p {

@@ -1,11 +1,9 @@
-import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { VscSignOut as Sair} from "react-icons/vsc";
 
 import './Cabecalho.scss';
 
 export default function Cabecalho() {
-    const rotaAtual = useLocation();
     const navigate = useNavigate();
 
     const obJUser = JSON.parse(sessionStorage.getItem('data-user'));

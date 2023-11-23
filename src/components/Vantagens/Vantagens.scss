@@ -1,8 +1,11 @@
 .vantagens {
+    
     h2 {
+        font-size: 2.2rem;
         text-align: center;
         align-items: center;
-        padding: 5px;
+        padding: 30px;
+        color: rgb(17, 88, 100);
     }
 
     #vantagens {
@@ -16,15 +19,18 @@
     #vantagens div {
         text-align: center;
         padding: 10px;
-        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 10px;
         flex: 1;
         max-width: 350px; /* Define a largura máxima */
         display: flex;
         flex-direction: column;
 
-        h3 {
+        h4{
             font-size: 1.2rem;
-            margin-bottom: 5px;
+            margin: 20px;
+            color: rgb(17, 88, 100);
         }
 
         img {
@@ -35,7 +41,9 @@
         }
 
         p {
-            font-size: 1rem; /* Tamanho de fonte padrão */
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
         }
     }
 
