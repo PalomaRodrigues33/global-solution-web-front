@@ -1,8 +1,16 @@
-# React + Vite
+# Projeto MediMate Watch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Nomes 
+- Gabriel Genaro Dalaqua RM551986
+  
+- Paloma Mirela dos Santos Rodrigues RM551321
 
-Currently, two official plugins are available:
+## Requisitos Para Acessar 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para acessar a página principal é possível realizar o cadastro de um novo usuário ou também consultar o banco de dados para consultar os usuários e senhas cadastrados 
+
+Exemplo para fazer login: 
+"nome": "Somerset Finding",
+        "email": "sfinding1@aol.com",
+        "senha": "vestibulum"
+
