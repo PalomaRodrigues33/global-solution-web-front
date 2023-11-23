@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { VscSignOut as Sair} from "react-icons/vsc";
-
+import logo from '../../img/jack idoso.png';
 import './Cabecalho.scss';
 
 export default function Cabecalho() {
@@ -17,9 +17,10 @@ export default function Cabecalho() {
     return (
         <>
             <header className="cabecalho">
+                <img src={logo} alt="" />
                 {obJUser ? (
                     <>
-                        <div className="welcome">
+                        <div className="paginaprincipal">
                             <p>{`Olá ${obJUser.nome}!`}</p>
                             <p>Conectado como: {obJUser.email}</p>
                         </div>
@@ -30,10 +31,13 @@ export default function Cabecalho() {
                         </div>
                     </>
                 ) : (
+                    <>
                     <div className="welcome">
                         <p>Olá!</p>
                         <p>Realize o login para acessar a página principal</p>
                     </div>
+                    <div className='invis'>.</div>
+                    </>
                 )}
             </header>
         </>

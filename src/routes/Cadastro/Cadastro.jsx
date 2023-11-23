@@ -38,7 +38,7 @@ export default function Cadastro() {
                     senha:""
                 });
 
-                setMsgStatus("Cadastro realizado com sucesso!");
+                alert("Cadastro realizado com SUCESSO!")
 
                 setTimeout(()=>{
                     navigate("/login");
@@ -48,7 +48,7 @@ export default function Cadastro() {
             
         } catch (error) {
             console.error(error);
-            setMsgStatus("Ocorreu um erro ao tentar realizar o registro!");
+            alert("Ocorreu um erro ao tentar realizar o registro!");
         }
 
     }
