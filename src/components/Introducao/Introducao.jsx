@@ -1,5 +1,5 @@
-import smartwatch from '../../img/Runway 2023-11-22T20_56_43.936Z Expand Image.jpg';
-import intro from '../../img/DALL·E 2023-11-22 18.15.13 - simple smart watch with a green screen .png';
+import intro from '../../img/Runway 2023-11-22T20_56_43.936Z Expand Image.jpg';
+import smartwatch from '../../img/DALL·E 2023-11-22 18.15.13 - simple smart watch with a green screen .png';
 
 import './Introducao.scss'
 
