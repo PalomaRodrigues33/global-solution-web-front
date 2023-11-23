@@ -36,7 +36,7 @@
 }
 
 /* Consulta de mídia para telas menores, como smartphones em modo retrato */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .home-container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
@@ -59,16 +59,33 @@
 }
 
 /* Consulta de mídia para telas de tamanho médio, como tablets em modo retrato */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Faça ajustes conforme necessário */
-}
-
-/* Consulta de mídia para telas médias a grandes, como tablets em modo paisagem e desktops */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Faça ajustes conforme necessário */
+    .home-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        margin: 2em;
+        padding: 0 2em;
+    }
+
+    .introducao {
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+
+    .informacoes {
+        grid-column: span 1;
+        grid-row: span 4;
+    }
+
+    .vantagens {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
 }
 
 /* Consulta de mídia para telas maiores, como desktops grandes e telas 4K */
 @media screen and (min-width: 1025px) {
-    /* Faça ajustes conforme necessário */
+    .home-container {
+        margin: 2em 5em;
+    }
 }

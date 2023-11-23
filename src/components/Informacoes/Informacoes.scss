@@ -29,8 +29,25 @@
                 }
                 p {
                     font-size: 0.9rem;
+                    margin-bottom: 15px; /* Ajustar a margem inferior para separar do próximo elemento */
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        /* Adiciona a regra para descer a div informacoes */
+        #informacoes {
+            flex-direction: column; /* Muda a direção do flex para coluna */
+            align-items: center; /* Centraliza os elementos */
+            margin-top: 20px; /* Adiciona um espaçamento acima da div */
+        }
+
+        /* Estiliza cada div dentro de informacoes */
+        #informacoes div {
+            width: 100%; /* Ocupa toda a largura */
+            padding: 15px;
+            margin-bottom: 20px; /* Espaçamento entre as divs */
         }
     }
 
@@ -44,6 +61,7 @@
                 }
                 p {
                     font-size: 0.8rem;
+                    margin-bottom: 10px; /* Ajustar a margem inferior para separar do próximo elemento */
                 }
             }
         }
