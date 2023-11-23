@@ -1,21 +1,66 @@
-// Vantagens.scss
-
 .vantagens {
+    h2 {
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+    }
+
     #vantagens {
+        text-align: center;
         display: flex;
         gap: 20px;
-        justify-content: space-around; // Adjust this property based on your alignment preference
-        align-items: center; // Optional: Center items vertically
+        justify-content: space-around;
+        align-items: stretch; /* Garante que os cards tenham a mesma altura */
+    }
 
-        div {
-            text-align: center;
-            padding: 10px;
-            border: 1px solid #ccc; // Optional: Add a border for visual separation
+    #vantagens div {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+        flex: 1;
+        max-width: 350px; /* Define a largura máxima */
+        display: flex;
+        flex-direction: column;
 
-            h3 {
-                font-size: 1.2rem;
-                margin-bottom: 5px; // Optional: Add margin for spacing below the number
-            }
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 200px; /* Altura máxima para a imagem */
+            object-fit: cover; /* Redimensiona a imagem mantendo sua proporção */
+        }
+
+        p {
+            font-size: 1rem; /* Tamanho de fonte padrão */
+        }
+    }
+
+    /* Responsividade para diferentes tamanhos de tela */
+    @media screen and (max-width: 1024px) {
+        #vantagens div {
+            max-width: 300px; /* Reduz a largura máxima para telas menores */
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        #vantagens {
+            flex-direction: column; /* Muda para coluna em telas menores */
+            align-items: center; /* Centraliza os cards */
+        }
+
+        #vantagens div {
+            max-width: 100%; /* Largura total */
+            margin-bottom: 20px; /* Espaçamento entre os cards */
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        #vantagens div {
+            max-height: none; /* Remove a altura máxima das imagens */
         }
     }
 }

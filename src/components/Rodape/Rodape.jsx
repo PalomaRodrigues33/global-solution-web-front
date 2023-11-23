@@ -1,4 +1,3 @@
-import React from 'react';
 import './Rodape.scss';
 
 export default function Rodape() {
